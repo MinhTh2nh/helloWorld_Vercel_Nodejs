@@ -12,7 +12,7 @@ app.use(express.json())
 app.use(express.urlencoded({extended: true}))
 
 app.use('/',(req,res) => {
-    return res.send('HELLO WORLD')
+    return res.send('HELLO WORLD from Minh Thanh')
 })
 
 const PORT  = process.env.PORT || 8888
